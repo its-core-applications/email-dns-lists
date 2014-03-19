@@ -1,0 +1,23 @@
+:127.0.0.1
+127.0.0.2   test
+
+# http://www.itcom.itd.umich.edu/backbone/umnet/
+67.194.0.0/16           UM Ann Arbor (UMnet and Residence Halls)
+141.211.0.0/16          UM Ann Arbor (UMnet)
+141.212.0.0/16          UM Ann Arbor (CoE)
+141.213.0.0/17          UM Ann Arbor (CoE)
+141.213.128.0/17        UM Ann Arbor (UMnet)
+141.214.0.0/16          UM Ann Arbor (UMHS)
+141.215.0.0/16          UM Dearborn
+141.216.0.0/16          UM Flint
+192.12.80.0/24          UM Backbone Interconnect (UMBIN - interconnects UMnet, UMHS, CoE, UM Dearborn and Merit)
+192.231.253.0/24        UM Ann Arbor (UMnet NOC)
+198.108.8.0/21          UM Ann Arbor (IP Telephony and Network Infrastructure)
+198.111.224.0/22        UM Ann Arbor (ITS Comm Interoperability Lab)
+198.111.181.0/25        UM Ann Arbor (UMHS public-facing servers)
+207.75.144.0/20         UM Ann Arbor (UMnet WAN-connected off-campus networks)
+
+# http://www.itcom.itd.umich.edu/backbone/umnet/privateIP.html
+10/8
+172.16/12
+192.168/16

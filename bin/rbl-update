@@ -1,0 +1,61 @@
+#!/bin/bash
+
+workdir=/var/git/umich-rbls.git
+
+name=$(basename $0)
+action=$(echo $name | awk -F - '{print $NF}')
+file=$(echo $name | sed -e "s/-$action//")
+
+echo "Running $action against $file"
+
+cd $workdir
+
+if [[ ! -s $file ]]; then
+    echo "${workdir}/$file is empty or nonexistent, exiting"
+    exit 1
+fi
+
+
+if [[ -n $(git status --porcelain $file) ]]; then
+    echo "$file failed 'git status', exiting"
+    git status $file
+    exit 1
+fi
+
+for entry in $@ ; do
+    if [[ $action = "add" ]]; then
+        if grep -q -w $entry $file ; then
+            echo ""
+            echo -n "Oh dear, it looks like $entry is already in ${file}. "
+            echo "I'm skipping this one."
+            continue
+        else
+            sed -i -e "5i$entry" $file
+        fi
+    elif [[ $action = "remove" ]]; then
+        if grep -q -w $entry $file ; then
+            sed -ri -e "/^${entry}\b/d" $file
+        else
+            echo ""
+            echo -n "Oh my, it looks like $entry is not in ${file}. "
+            echo "I'm skipping this one."
+            continue
+        fi
+    else
+        echo "Unkown action $action, exiting"
+        exit 1
+    fi
+done
+
+if [[ -n $(git status --porcelain $file) ]]; then
+    tmpfile=$(mktemp)
+    echo "Automated change: $file: $action $@" > $tmpfile
+    echo >> $tmpfile
+    git diff $file | sed -e 's/^/# /' >> $tmpfile
+    git commit --author="$USER <$USER@umich.edu>" -F $tmpfile -eo --untracked-files=no $file
+    rm -f $tmpfile
+else
+    echo
+    echo "No changes made, skipping commit step."
+fi
+

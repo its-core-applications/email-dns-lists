@@ -1,0 +1,5 @@
+# http://www.itcom.itd.umich.edu/backbone/umnet/
+
+35.0.0.0/16     UM Ann Arbor (Guest wired and wireless)
+35.1.0.0/16     UM Ann Arbor (UMnet Authenticated Wireless)
+35.2.0.0/16     UM Ann Arbor (UMnet Authenticated Wireless)
