@@ -1,6 +1,6 @@
 #!/bin/bash
 
-workdir=/var/git/umich-rbls.git
+workdir=/var/lib/rbldnsd/umich-rbls.git
 
 name=$(basename $0)
 action=$(echo $name | awk -F - '{print $NF}')
@@ -59,3 +59,8 @@ else
     echo "No changes made, skipping commit step."
 fi
 
+if [[ -n $(git status --porcelain $file) ]]; then 
+    echo
+    echo "Aborted commit, reverting file changes."
+    git checkout -- $file
+fi
