@@ -1,0 +1,5 @@
+# Whitelisted IPs that will bypass a lot of checks
+:127.0.0.1
+127.0.0.2   test
+
+208.93.120.245 	Blackboard
