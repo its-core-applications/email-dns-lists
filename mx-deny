@@ -2,6 +2,7 @@
 :127.0.0.1
 127.0.0.2   test
 
+69.8.176/20
 198.12.64/18
 162.211.121.47
 162.211.121.38
@@ -92,7 +93,7 @@
 107.161.31.144
 5.135.58.246
 192.129.190.229
-198.144.144.0/20
+198.144.144/20
 91.219.237.145
 69.175.125.19-30
 46.108.133/24
@@ -101,7 +102,6 @@
 198.105.214/24
 209.200.29/24
 206.190.151.25
-206.217.133.190
 184.154.252.83
 184.154.252.84
 69.175.114/24
@@ -116,7 +116,6 @@
 92.62.151.73
 192.208.190.126
 192.3.11.212
-107.158.214.231
 170.130.9/24
 62.112.149.145
 72.32.11.52
@@ -261,10 +260,6 @@
 109.231.68/24 # consistent spam from chinese registered domains
 41.218.238.189 # phishing
 74.81.85.126 # spam to inbox, microword contest x 3
-85.196.174.123 # high connection count, poor sd rep
-85.196.174.122 # high connection count, poor sd rep
-85.196.174.121 # high connection count, poor sd rep
-85.196.174.120 # high connection count, poor sd rep
 165.98.239.155 # spam to inbox, nicaraguan IP
 194.117.75.2 # spam to inbox, russian IP
 208.77.98.173 # spam to inbox, post RBL deploy
@@ -287,12 +282,6 @@
 168.143.88/24 # spam rec'd .138, poor sb, flygetsoftwaresite.com
 216.185.54.55 # spam rec'd viagra, poor sb
 194.84.153.50 # spam rec'd exxon
-85.196.174.33 # top connects, poor senderbase reputation student-job-portal.com
-85.196.174.39 # top connects, poor senderbase reputation student-job-portal.com
-85.196.174.44 # top connects, poor senderbase reputation student-job-portal.com
-85.196.174.43 # top connects, poor senderbase reputation student-job-portal.com
-85.196.174.42 # top connects, poor senderbase reputation student-job-portal.com
-85.196.174.41 # top connects, poor senderbase reputation student-job-portal.com
 70.38.64.117 # spam rec'd nigerian, neutral SB
 195.34.80.171 # spam rec'd viagra, poor SB
 173.8.212.105 # spam rec'd prospectdb-mw.com, poor SB, notified comcast
@@ -2425,7 +2414,6 @@
 217.122.185.180 # poor
 217.129.227.191 # poor
 217.216.18.142 # poor
-217.217.176.49 # poor
 217.217.35.172 # poor
 217.229.26.16 # poor
 217.235.32.185 # poor
@@ -5111,7 +5099,6 @@
 59.94.250.203 # 300, max connect, poor sb
 88.248.14.44 # 300, max connect, poor sb
 194.85.133.134 # 300, max connect, poor sb
-212.7.221.77 # 300, max connect, poor sb
 59.94.250.203 # 300, max connect, poor sb
 91.188.57.207 # 300, max connect, poor sb
 91.124.70.116 # 300, max connect, poor sb
@@ -5331,8 +5318,6 @@
 67.209.150/24 # high connections, poor sb rep, invalid from domain
 206.151.130/24 # high connections, poor sb rep, random domains
 206.151.131/24 # high connections, poor sb rep, random domains
-216.22.7.34 # high connects, get_mx: dnsr_result: simpletack.net: timeout
-216.22.7.28 # high connections, get_mx: dnsr_result: 2007goinfo.com: timeout
 201.9.126/24 # poor sb rep, multiple rbls
 59.97.120/24 # poor sb rep, multiple rbls, phishing
 80.85.146/24 # russian spammer, poor sb rep, \032 in hostname?
@@ -5384,7 +5369,6 @@
 67.220.229/24 # max connects, bad reverse, bad SB rep
 209.126.179/24 # top connects under throttling, PBX'd, bad reverse
 217.199.186.181 # compromised node, per bpb
-212.7.221.5 # retrying PB, super high gateway connections
 209.164.135.148 # retrying PB, super high gateway connections
 203.12.220.135 # umich phishing
 216.188.43/24 # large spammer subnet, poor rep on with senderbase, bad reverse, not retrying
@@ -5416,12 +5400,6 @@
 209.164.135.147
 209.164.135.149
 209.164.135.150
-212.7.220.104 # highest connector, bad reverse, poor rep, retrying after 5s
-212.7.220.105
-212.7.220.106
-212.7.220.107
-212.7.220.108
-212.7.220.109
 66.128.93.10 # sending me spam
 63.217.199/24 # massive spammer, poor reputation, partially xbl listed
 208.118.68/24 # spammer subnet, PB bad reverse, retrying after 1s
@@ -5432,7 +5410,6 @@
 201.238.231.104 # "
 206.71.185/24 # spam
 218.185.20.35 # lame phishing attempts
-212.7.220.98 # more connects than FB, bad reverse, bad senderbase.org rep, spammed iaa@
 66.134.122.243 # requested by UA (04Mar08), thegrantinstitute.com spam
 207.210.249/24 # second highest connector, bad reverse, not retrying, poor rep
 72.37.193/24 # see below
@@ -5626,8 +5603,6 @@
 67.191.135.58 # high connections, no data (comcast)
 91.124.190.103 # high connections, no data
 88.224.123.254 # high connections, no data
-71.95.152.210 # consistently penaltybox'd courtesy of rbl sbl.dnsbl
-122.168.31.89 # top 20 cable
 58.186.139.159 # top 20 no reverse
 12.16.172.61 # top 20 no reverse
 81.202.72.169 # top 20 dynamic
@@ -5749,7 +5724,6 @@
 91.163.182.236 # making large number of connections, possibly pharming addresses
 86.96.173.227 # stock spam
 202.63.157.6 # spammer: blocked for gateway load
-66.248.159.52 # "
 212.174.221.17 # "
 68.198.53.54 # "
 206.151.129/24 # "
@@ -5774,7 +5748,6 @@
 72.2.25/24 # "
 63.216.88/24 # spammer
 211.41.128.26 # spamming, directory log roll, on multiple blocklists
-212.7.220.244 # high connection count, bad reverse.
 88.242.48.199 # high connection count
 70.145.216.191 # high connection count
 219.134.43.198 # high connection count
@@ -5791,7 +5764,6 @@
 69.93.218.58 # failed reverse high connection count
 63.247.86.189 # multiple days high connection count, no reverse
 209.205.236/24 # high connection count, constant penaltyboxed
-212.7.220.239 # high connection count, constant failures
 66.240.204/24 # very high connections, block by PB, caused early directory roll
 209.126.180/24 # same spammer as 66.240.204.
 68.167.174.248 # thegrantinstitute.com, requested by User Advocate
@@ -5835,28 +5807,6 @@
 208.71.171.92
 208.71.171.93
 208.71.171.94
-212.7.220.233 # dmtelecom.net, high connections, appear to be work from home scammers
-212.7.220.234 # dmtelecom.net
-212.7.220.235 # dmtelecom.net
-212.7.220.236 # dmtelecom.net
-212.7.220.237 # dmtelecom.net
-212.7.220.238 # dmtelecom.net
-212.7.220.239 # dmtelecom.net
-212.7.220.240 # dmtelecom.net
-212.7.220.241 # dmtelecom.net
-212.7.220.242 # dmtelecom.net
-212.7.220.243 # dmtelecom.net
-212.7.220.244 # dmtelecom.net
-212.7.220.245 # dmtelecom.net
-212.7.220.246 # dmtelecom.net
-212.7.220.247 # dmtelecom.net
-212.7.220.248 # dmtelecom.net
-212.7.220.249 # dmtelecom.net
-212.7.220.250 # dmtelecom.net
-212.7.220.251 # dmtelecom.net
-212.7.220.252 # dmtelecom.net
-212.7.220.253 # dmtelecom.net
-212.7.220.254 # dmtelecom.net
 86.13.1.101 # high connections, bogus helo
 81.213.110.222 # ebay phishing
 208.71.171.68 # high connections, we don't like them
@@ -5900,8 +5850,6 @@
 66.159.20.170 # fake domains spamming
 202.75.54.4 # spam holiday
 202.75.54.34 # spam holiday hurting pr
-202.75.58.229 # excessive connections, same dns as spammers
-202.75.58.232 # spamming holiday, same dns as spammers
 203.223.153/24 # spamming, lots of bounce.*.com crappy dns
 203.223.151/24 # spamming, bounce.*.com not taking bounces
 66.135.224.162 # spamming
@@ -19869,7 +19817,6 @@
 201.9.116.59
 201.9.120.92
 201.9.124.150
-201.9.126.232
 201.9.129.253
 201.9.131.41
 201.9.136.15
@@ -29273,7 +29220,6 @@
 217.217.173.193
 217.217.174.26
 217.217.175.165
-217.217.176.214
 217.217.177.65
 217.217.178.152
 217.217.181.57
@@ -57708,22 +57654,6 @@
 69.79.49.143
 69.79.57.205
 69.79.63.66
-69.8.176/24
-69.8.177/24
-69.8.178/24
-69.8.179/24
-69.8.180/24
-69.8.181/24
-69.8.182/24
-69.8.183/24
-69.8.184/24
-69.8.185/24
-69.8.186/24
-69.8.187/24
-69.8.188/24
-69.8.189/24
-69.8.190/24
-69.8.191/24
 69.8.211.17
 69.8.211.56
 69.8.212.200
