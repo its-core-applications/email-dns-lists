@@ -341,7 +341,6 @@
 93.123.52.240 # fiberoptics-net.info -- mystery shopper spam -- bounces queuing
 64.120.14.205 # academicworldregistry2011.com
 24.129.142.227 # compromised exchange -- phishing -- amikids.org
-72.52.127/24 # commodo (round 3) no dns poor SB/24
 173.212.208.228 # commodo (instantssl-ev.com) spam (after 1st block)
 173.208.152.202 # commodo (instantssl-ev.com) spam
 173.212.251.172 # commodo (instantssl-ev.com) spam (after 1st block)
