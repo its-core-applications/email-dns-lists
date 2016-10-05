@@ -5,6 +5,7 @@
 35.0.0.0/16             UM Ann Arbor (Guest wired and wireless)
 35.1.0.0/16             UM Ann Arbor (UMnet Authenticated Wireless)
 35.2.0.0/16             UM Ann Arbor (UMnet Authenticated Wireless)
+35.3.0.0/16             UM Ann Arbor (UMnet Authenticated Wireless)
 67.194.0.0/16           UM Ann Arbor (UMnet and Residence Halls)
 141.211.0.0/16          UM Ann Arbor (UMnet)
 141.212.0.0/16          UM Ann Arbor (CoE)
