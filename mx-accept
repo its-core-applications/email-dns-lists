@@ -2,24 +2,33 @@
 :127.0.0.1
 127.0.0.2   test
 
-50.31.156.116-123   interview broker
+141.211.12.0/23         MACC
+141.211.14.0/25         ALDF
+141.211.14.128/27       ALDF LB
+141.211.90.64/28        MACC LB
+141.211.125.0/24        ASB
+141.211.176.128/27      ASB LB
+141.211.91.0/26         Exchange
+141.211.76.102          hawkgirl
 
-# Updated 2014-01-27
+35.162.59.88            AWS egress
+52.37.117.118           AWS egress
+35.161.254.188          AWS egress
+
+# Updated 2017-02-08
 #
 # _spf.google.com
-#   "v=spf1 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com ~all"
-#
-# _netblocks.google.com
-#   "v=spf1 ip4:64.18.0.0/20 ip4:64.233.160.0/19 ip4:66.102.0.0/20 ip4:66.249.80.0/20 ip4:72.14.192.0/18 ip4:74.125.0.0/16 ip4:173.194.0.0/16 ip4:207.126.144.0/20 ip4:209.85.128.0/17 ip4:216.58.208.0/20 ip4:216.239.32.0/19 ~all"
-# _netblocks2 is IPv6, _netblocks3 is empty
-64.18.0.0/20        Google
-64.233.160.0/19     Google
-66.102.0.0/20       Google
-66.249.80.0/20      Google
-72.14.192.0/18      Google
-74.125.0.0/16       Google
-173.194.0.0/16      Google
-207.126.144.0/20    Google
-209.85.128.0/17     Google
-216.58.208.0/20	    Google
-216.239.32.0/19     Google
+64.18.0.0/20            Google
+64.233.160.0/19         Google
+66.102.0.0/20           Google
+66.249.80.0/20          Google
+72.14.192.0/18          Google
+74.125.0.0/16           Google
+108.177.8.0/21          Google
+108.177.96.0/19         Google
+172.217.0.0/19          Google
+173.194.0.0/16          Google
+207.126.144.0/20        Google
+209.85.128.0/17         Google
+216.58.192.0/19         Google
+216.239.32.0/19         Google
