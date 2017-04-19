@@ -1,5 +1,4 @@
-:127.0.0.1
+:127.0.0.2:https://spambusters.mail.umich.edu/lookup?$
 
-127.0.0.2       # test
-141.211.12.89   # alien
-45.79.218.81    # vereveel
+127.0.0.2
+45.79.218.81 vereveel
