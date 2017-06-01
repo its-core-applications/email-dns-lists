@@ -1,5 +1,6 @@
-# http://www.itcom.itd.umich.edu/backbone/umnet/
+:127.0.0.2
 
+# http://www.itcom.itd.umich.edu/backbone/umnet/
 2607:F018::/32          UM Ann Arbor
 2607:F018::/33          UMnet Backbone
 2607:F018:8000::/34     CoE Backbone
