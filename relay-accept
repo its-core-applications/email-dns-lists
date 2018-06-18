@@ -1,0 +1,5 @@
+# Known good IPs that will not be denied due to DNSBLs
+:127.0.0.1
+127.0.0.2   test
+
+
