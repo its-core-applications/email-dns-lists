@@ -5509,7 +5509,6 @@
 206.151.135/24 # bad reverse, poor sb, spam froms, volume
 76.74.104/24 # poor sb, rotating dns, volume
 65.118.67/24 # QIL, poor sb, volume
-209.82.20/24 # BLOCK poor sb, rotating domains, volume
 66.180.213/24 # BLOCK poor sb, wacky domains, volume
 66.180.212/24 # BLOCK poor sb, wacky domains, volume
 216.145.213/24 # BLOCK poor sb, spam domains, volume
