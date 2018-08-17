@@ -1,5 +1,5 @@
 # Postmaster RBLs
-:127.0.0.2:See http://spambusters.mail.umich.edu/troubleshoot
+:127.0.0.2:See http://its.umich.edu/computing/email-calendar/troubleshoot/block-status
 127.0.0.2   test
 
 12.170.95.36
