@@ -13,11 +13,16 @@
 141.211.76.102          hawkgirl
 
 35.162.59.88            AWS egress
-52.37.117.118           AWS egress
 35.161.254.188          AWS egress
-34.192.174.128          AWS egress
-52.21.120.56            AWS egress
-52.44.166.222           AWS egress
+52.37.117.118           AWS egress
+18.216.144.57           AWS egress
+18.219.209.13           AWS egress
+13.59.128.245           AWS egress
+18.217.159.240          AWS egress
+18.219.197.222          AWS egress
+13.58.214.35            AWS egress
+18.188.205.92           AWS egress
+18.191.56.25            AWS egress
 
 # Updated 2017-02-08
 #
