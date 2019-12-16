@@ -1,0 +1,6 @@
+# IP addresses that automatically bypass ClamAV
+:127.0.0.1
+127.0.0.2   test
+
+141.211.160.95
+141.211.160.97
