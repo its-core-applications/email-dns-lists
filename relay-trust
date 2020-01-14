@@ -1,0 +1,6 @@
+# IP addresses that are trusted by our relay services
+:127.0.0.1
+127.0.0.2   test
+
+141.211.160.95	Arial/its-teprd01
+141.211.160.97	Arial/its-teprd02
