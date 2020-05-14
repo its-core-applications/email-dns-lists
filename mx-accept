@@ -47,3 +47,13 @@
 209.85.128.0/17         Google
 216.58.192.0/19         Google
 216.239.32.0/19         Google
+
+# Updated 2020-05-15
+# amazonses.com
+199.255.192.0/22	amazonses
+199.127.232.0/22	amazonses
+54.240.0.0/18		amazonses
+69.169.224.0/20		amazonses
+23.249.208.0/20		amazonses
+23.251.224.0/19		amazonses
+76.223.176.0/20		amazonses
