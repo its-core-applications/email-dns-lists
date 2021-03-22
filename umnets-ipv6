@@ -1,10 +1,7 @@
 :127.0.0.2
 
-# http://www.itcom.itd.umich.edu/backbone/umnet/
-2607:F018::/32          UM Ann Arbor
-2607:F018::/33          UMnet Backbone
-2607:F018:8000::/34     CoE Backbone
+# https://its.umich.edu/enterprise/wifi-networks/core-network/network-addresses
+2607:F018::/32          Ann Arbor
+2607:F018::/33          UMnet
 2607:F018:C000::/35     UMHS Backbone
-2607:F018:E000::/36     Reserved/Special
-2607:F018:FFFE::/48     ITS Comm Interoperability Lab
-2607:F018:FFFF::/48     UMBIN
+2607:F018:E000::/35     Special Networks

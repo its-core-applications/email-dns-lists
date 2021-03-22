@@ -1,11 +1,14 @@
 :127.0.0.2
 127.0.0.2               test
 
-# http://www.itcom.itd.umich.edu/backbone/umnet/
+# https://its.umich.edu/enterprise/wifi-networks/core-network/network-addresses
 35.0.0.0/16             UM Ann Arbor (Guest wired and wireless)
 35.1.0.0/16             UM Ann Arbor (UMnet Authenticated Wireless)
 35.2.0.0/16             UM Ann Arbor (UMnet Authenticated Wireless)
 35.3.0.0/16             UM Ann Arbor (UMnet Authenticated Wireless)
+35.5.0.0/16		Ann Arbor (UMNet)
+35.6.0.0/16		Ann Arbor (IoT Network)
+35.7.0.0/18		Ann Arbor (UMVPN)
 65.117.69.14/32         UM LSA Earth and Environmental Sciences - Camp Davis (Jackson, WY)
 67.194.0.0/16           UM Ann Arbor (UMnet and Residence Halls)
 141.211.0.0/16          UM Ann Arbor (UMnet)
@@ -22,9 +25,10 @@
 198.110.84.0/24         UM Biological Station (Pellston, MI)
 198.111.224.0/22        UM Ann Arbor (ITS Comm Interoperability Lab)
 198.111.181.0/25        UM Ann Arbor (UMHS public-facing servers)
+207.74.194.0/24		Alumni Association - Camp Michigania (Boyne City)
 207.75.144.0/20         UM Ann Arbor (UMnet WAN-connected off-campus networks)
 
-# http://www.itcom.itd.umich.edu/backbone/umnet/privateIP.html
+# https://its.umich.edu/enterprise/wifi-networks/core-network/network-addresses/private-ip-addresses
 10/8                    private IP
 172.16/12               private IP
 192.168/16              private IP
