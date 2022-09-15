@@ -26,7 +26,7 @@
 18.188.205.92           AWS egress
 18.191.56.25            AWS egress
 
-# Updated 2019-07-16
+# Updated 2022-09-15
 #
 # _spf.google.com
 35.190.247.0/24         Google
@@ -44,17 +44,20 @@
 172.217.128.0/19        Google
 172.217.160.0/20        Google
 172.217.192.0/19        Google
+172.253.56.0/21         Google
+172.253.112.0/20        Google
 173.194.0.0/16          Google
 209.85.128.0/17         Google
 216.58.192.0/19         Google
 216.239.32.0/19         Google
 
-# Updated 2020-05-15
+# Updated 2022-09-15
 # amazonses.com
-199.255.192.0/22	amazonses
-199.127.232.0/22	amazonses
-54.240.0.0/18		amazonses
-69.169.224.0/20		amazonses
-23.249.208.0/20		amazonses
-23.251.224.0/19		amazonses
-76.223.176.0/20		amazonses
+23.249.208.0/20         amazonses
+23.251.224.0/19         amazonses
+52.82.172.0/22          amazonses
+54.240.0.0/17           amazonses
+69.169.224.0/20         amazonses
+76.223.176.0/20         amazonses
+199.127.232.0/22        amazonses
+199.255.192.0/22        amazonses
