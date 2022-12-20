@@ -61,3 +61,6 @@
 76.223.176.0/20         amazonses
 199.127.232.0/22        amazonses
 199.255.192.0/22        amazonses
+
+# Salesforce Marketing Cloud (crm.it.umich.edu)
+13.110.235.176		salesforce
